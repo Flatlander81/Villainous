@@ -1,0 +1,131 @@
+# Visual Studio 2015/2017/2019/2022 cache/options directory
+.vs/
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Unreal Engine cache and intermediate files
+Binaries/
+Build/
+Intermediate/
+Saved/
+DerivedDataCache/
+.idea/
+
+# Unreal Engine generated files
+*.opensdf
+*.sdf
+*.suo
+*.sln
+*.xcodeproj
+*.xcworkspace
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.dylib
+*.lib
+*.a
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+
+# Executables
+*.out
+*.app
+
+# Package Files
+*.ipa
+*.apk
+*.xap
+
+# Crashes and logs
+*.log
+*.stackdump
+
+# Plugins
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# Starter Content (optional - uncomment if you don't want starter content)
+# Content/StarterContent/
+
+# Don't ignore .gitignore and .gitattributes
+!.gitignore
+!.gitattributes
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.directory
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Android
+*.apk
+*.ap_
+*.aab
+*.dex
+local.properties
+
+# iOS
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# UE5 specific
+/BuiltData/
+FileOpenOrder/
+
+# Automation Tool
+/Engine/Programs/AutomationTool/Saved/
+
+# Never ignore these
+!Build/**/*.cs
+!Build/**/*.xml
+!Build/**/*.sh
+!Build/**/*.bat
+!Build/**/*.command
